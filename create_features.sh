@@ -14,7 +14,7 @@ fi
 
 PACKAGE=`ls | sed -rn 's/([a-zA-Z0-9\_]+)\.info/\1/p'`
 
-for i in ${categories[@]}
+for i in ${CATEGORIES[@]}
 do
   feature_name=${PACKAGE}_$i
   if [ -f "modules/feature/${feature_name}/${feature_name}.info" ]
