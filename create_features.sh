@@ -1,6 +1,6 @@
 #!/bin/bash
-array=( taxonomy menu_custom filter field_base field_instance node views_view user_role user_permission rules_config profile2_type flag elysia_cron feeds_importer)
-PAQUETE=$1
+array=( taxonomy menu_custom filter field_base field_instance node commerce_customer commerce_product_type flag profile2_type views_view user_role rules_config elysia_cron feeds_importer user_permission)
+PAQUETE=`ls | sed -rn 's/([a-zA-Z0-9\_]+)\.info/\1/p'`
 for i in ${array[@]}
 do
 	feature_name=${PAQUETE}_$i
