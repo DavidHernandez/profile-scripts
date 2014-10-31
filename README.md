@@ -12,3 +12,7 @@ Some useful scripts for working with Drupal installation profiles
 # Credits
 - build.sh is a modified version from the build script used on Commerce Kickstart: https://www.drupal.org/project/commerce_kickstart
 - create_features.sh has been copied from this repository https://github.com/ximo1984/Drupal-create-features
+
+# Sponsorships
+- Initial development sponsored by Mercalia Global Market for http://www.tortugashispanicas.com
+
